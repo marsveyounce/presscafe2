@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@400;600;800&display=swap');
+.clearfix {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+img {
+	width: 100%;
+}
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+#home header {
+	background-image: url("../images/main_banner.jpg");
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+header {
+	background: #695F5D;
+	height: auto;
+	padding: 10px;
+}
+header img {
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 10x;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+nav {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+}
+nav ul li {
+	font-size: 18px;
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+}
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#blurb {
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+}
+nav a, #blurb h1, #blurb h2, section h1, #subfooter {
+	text-transform: uppercase;
+}
+#blurb h1 {
+	font-size: 96px;
+	font-weight: 800;
+	color: #88EBF2;
+	margin-bottom: -25px;
+}
+#blurb h2 {
+	font-size: 48px;
+	font-weight: 400;
+	color: #FFFFFF;
+	letter-spacing: 40px;
+	margin-top: 0;
+}
+#home main {
+	background-color: #DDD9D8;
+	margin-top: 0;
+	height: auto;
+}
+main {
+	background: #FFFFFF;
+	height: 91vh;
+}
+main h1 {
+	background-color: #DDD9D8;
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 30px;
+}
+section {
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+section h2, section h3 {
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+section h2 {
+	padding-bottom: 30px;
+	padding-top: 35px;
+	letter-spacing: 13px;
+	text-transform: uppercase;
+}
+section h3 {
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Lora', serif;
+	text-transform: capitalize;
+}
+.card {
+	font-size: 14px;
+	float: left;
+	margin-left: 30px;
+	width: 290px;
+	padding-bottom: 30px;
+}
+.card:first-child {
+	margin-left: 0px;
+}
+#bigmap {
+	float: left;
+	text-decoration:none;
+	overflow:hidden;
+	max-width: 100%;
+	width: 600px;
+	height: 300px;
+}
+iframe {
+	width: 600px;
+	height: 300px;
+	border:0;
+}
+#display-google-map {
+	height:100%; 
+	width:100%;
+	max-width:100%;
+}
+#display-google-map .text-marker{}.map-generator{
+	max-width: 100%; 
+	max-height: 100%; 
+	background: none;
+}
+.address {
+	font-size: 12px;
+	font-weight: 400;
+	width: 285px;
+	float: right;
+}
+.map {
+
+}
+footer {
+	background-color: #88EBF2;
+}
+#footeraddress, {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	padding-bottom: 30px;
+}
+.contacts, .mapny, .mapmilan {
+	width: 300px;
+	float: left;
+}
+.contacts p {
+	font-size: 14px;
+}
+footer p {
+	color: #0d7077;
+}
+.tagline, .navlinks ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	float: left;
+}
+.tagline p, .navlinks ul li{
+	margin: 30px;
+	margin-left: 30px;
+	margin-right: 0;
+}
+.mapny, .mapmilan {
+	margin-left: 30px;
+}
+.navlinks ul li {
+	margin-top: 10px;
+	list-style: none;
+	letter-spacing: 4.25px;
+}
+.navlinks ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#subfooter {
+	background-color: #60A4A9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+main {
+	background-color: #FFFFFF;
+}
+
